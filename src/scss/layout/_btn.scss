@@ -1,0 +1,17 @@
+.btn {
+  text-align: center;
+  border-radius: 10px;
+  color: $white;
+  background-color: $red;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  height: 60px;
+
+  &:disabled {
+    cursor: no-drop;
+    background-color: darken($red, 20);
+  }
+}
